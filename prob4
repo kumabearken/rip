@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int time = 0;
+	int constant = 32;
+	int total = 0;
+	cout << "Enter time:";
+	cin >> time;
+	total = time * time * constant;
+	total = total / 2;
+	cout << "The distance is: "  << total << endl;
+  //delete this and bottom thing
+	system("pause");
+}
