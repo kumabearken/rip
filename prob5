@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	char userIn;
+	cout << "Insert character:";
+	cin >> userIn;
+	cout << endl
+		<< "  " << userIn << " " << userIn << " " << userIn << endl
+		<< " " << userIn << "    " << userIn << endl
+		<< userIn << endl
+		<< userIn << endl
+		<< userIn << endl
+		<< userIn << endl
+		<< userIn << endl
+		<< " " << userIn << "    " << userIn << endl
+		<< "  " << userIn << " " << userIn << " " << userIn << endl;
+	//delete this and bottom thing
+  system("pause");
+}
